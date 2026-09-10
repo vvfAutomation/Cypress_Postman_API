@@ -419,6 +419,30 @@
       "response": []
     }
   ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
   "variable": [
     {
       "key": "supabase_service_role_api_key_1221",
@@ -439,6 +463,10 @@
     {
       "key": "json_web_token_181h",
       "secret": true
+    },
+    {
+      "key": "baseUrl",
+      "value": ""
     }
   ]
 }
